@@ -108,7 +108,8 @@ async function fetchMatchInfoBasedOnInput(event) {
 
             // Fetch match information
             const matchResponse = await fetch(`https://api.henrikdev.xyz/valorant/v3/matches/eu/${playerName}/${playerTag}`);
-            const matchData = await matchResponse.json();
+          const matchData = await matchResponse.json();
+          
 
             if (matchResponse.status === 200 && matchData.data.length > 0) {
                 const matchInfo = matchData.data[0].metadata;

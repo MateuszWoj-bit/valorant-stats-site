@@ -1,40 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Valorant API Website</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <header>
-        <h1>Valorant API Website</h1>
+      <h1>Valorant API Website</h1>
     </header>
     <main>
-        <form id="account-form">
-    <label for="player-name">Player Name:</label>
-    <input type="text" id="player-name" name="playerName" required>
-    <label for="player-tag">Tag:</label>
-    <input type="text" id="player-tag" name="playerTag" required>
-    <button type="submit">Fetch Account Info</button>
-</form>
-        <section id="account-section">
-            <h2>Account Information</h2>
-            <div id="account-info">
-          No information yet
-            </div>
+      <form id="account-form">
+        <label for="player-name">Player Name:</label>
+        <input type="text" id="player-name" name="playerName" required />
+        <label for="player-tag">Tag:</label>
+        <input type="text" id="player-tag" name="playerTag" required />
+        <button type="submit">Fetch Account Info</button>
+        <section>
+          <p>Player Name format exmaple: Johnny</p>
+          <p>Player Tag format exmaple: 5000</p>
+          <b>Both required</b>
         </section>
-        <section id="match-info">
-    <h2>Match Information</h2>
-    <!-- Match information will be displayed here -->
-</section>
-        <section id="store-section">
-            <h2>Featured Store Items</h2>
-            <div id="store-items">
-           
-            </div>
-        </section>
+      </form>
+      <section id="account-section">
+        <h2>Account Information Tab</h2>
+        <div id="account-info">No information yet</div>
+      </section>
+      <section id="match-info">
+        <h2>Match Information</h2>  
+      </section>
+      <section id="store-section">
+        <h2>Featured Store Items</h2>
+        <div id="store-items"></div>
+      </section>
     </main>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
