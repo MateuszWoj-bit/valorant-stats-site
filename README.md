@@ -2,7 +2,7 @@
 
 https://mateuszwoj-bit.github.io/valorant-stats-site/
 
-## Valorant 
+## Valorant  🔫🔫🔫
 
 # App Info
 - check your stats
