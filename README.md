@@ -6,7 +6,7 @@ https://mateuszwoj-bit.github.io/valorant-stats-site/
 
 # App Info
 - check your stats
-- display currently feature weapon skin set
+- display currently featured weapon skin set
 
 # Technology Stack:
 ![JavaScript Badge](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000&style=flat)
